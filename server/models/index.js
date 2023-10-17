@@ -13,6 +13,8 @@ const sequelize = new Sequelize(
 );
 
 db.Job = require('./Job')(sequelize);
+db.User = require('./User')(sequelize);
+db.Company = require('./Company')(sequelize);
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

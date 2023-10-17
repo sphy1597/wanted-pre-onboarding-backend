@@ -9,7 +9,11 @@ const Job = (sequelize) => {
       primaryKey: true,
       autoIncrement: true,
     },
-    company: {
+    company_id: {
+      type: Sequelize.STRING(100),
+      allowNull: false,
+    },
+    company_name: {
       type: Sequelize.STRING(100),
       allowNull: false,
     },
