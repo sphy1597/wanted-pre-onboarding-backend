@@ -1,5 +1,5 @@
 {
-  "name": "todo_server",
+  "name": "job_server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
