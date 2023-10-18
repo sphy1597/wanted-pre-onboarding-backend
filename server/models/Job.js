@@ -9,31 +9,19 @@ const Job = (sequelize) => {
       primaryKey: true,
       autoIncrement: true,
     },
-    company_id: {
+    position: { // 포지션
       type: Sequelize.STRING(100),
       allowNull: false,
     },
-    company_name: {
-      type: Sequelize.STRING(100),
-      allowNull: false,
-    },
-    nation: {
-      type: Sequelize.STRING(100),
-      allowNull: false,
-    },
-    region: {
-      type: Sequelize.STRING(100),
-      allowNull: false,
-    },
-    position: {
-      type: Sequelize.STRING(100),
-      allowNull: false,
-    },
-    compensation: {
+    compensation: { // 보상금
       type: INTEGER,
       allowNull: false,
     },
-    skill: {
+    content: { // 채용내용
+      type: Sequelize.STRING(100),
+      allowNull: false,
+    },
+    skill: { // 사용기술
       type: Sequelize.STRING(100),
       allowNull: false,
     },

@@ -16,6 +16,10 @@ db.Job = require('./Job')(sequelize);
 db.User = require('./User')(sequelize);
 db.Company = require('./Company')(sequelize);
 
+// 외래키 관계 설정
+db.Company.hasMany(db.Job, {foreignKey: 'company_id'});
+db.Job.belongsTo(db.Company, {foreignKey: 'company_id'})
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 

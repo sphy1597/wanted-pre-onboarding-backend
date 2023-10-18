@@ -1,9 +1,9 @@
-const { DataTypes, Sequelize, INTEGER } = require('sequelize');
+const { DataTypes, Sequelize } = require('sequelize');
 
 // DB data 
 const Company = (sequelize) => {
-  return sequelize.define('company', {
-    id: {
+  return sequelize.define('Company', {
+    company_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
@@ -14,8 +14,8 @@ const Company = (sequelize) => {
       allowNull: false,
     },
     company_country: {
-        type: Sequelize.STRING(100),
-        allowNull: false,
+      type: Sequelize.STRING(100),
+      allowNull: false,
     },
     company_area: {
       type: Sequelize.STRING(100),
@@ -27,6 +27,8 @@ const Company = (sequelize) => {
       allowNull: false,
       defaultValue: 0,
     },
+  }, {
+    freezeTableName: true, // 테이블 이름을 고정
   });
 };
 
