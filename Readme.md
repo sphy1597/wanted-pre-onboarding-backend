@@ -291,7 +291,7 @@ Response
 
 </br>
 
-## 2. 기술 스택 📊
+## 3. 기술 스택 📊
 
 + ![mysql](https://img.shields.io/badge/mysql-4479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white)
 + ![sequelize](https://img.shields.io/badge/sequelize-52B0E7.svg?&style=for-the-badge&logo=sequelize&logoColor=white)
@@ -304,5 +304,13 @@ Response
 
 <br/>
 
+## 4. 커밋 컨벤션
 
++ feat : 새로운 기능 추가
++ fix : 버그 수정
++ docs : 문서수정
++ Style : 코드 포맷, 세미콜론 누락, 코드 변경이 없는 경우
++ test : 테스트 코드
+
+## 5. API명세서
 
