@@ -314,5 +314,5 @@ Response
 
 ## 5. API명세서
 
-<img src="https://github.com/jaejae990921/test999/assets/101171774/8c9e2b54-5a24-43f2-80d5-9f8ac023d74e](https://github.com/sphy1597/wanted-pre-onboarding-backend/blob/master/image/api%EB%AA%85%EC%84%B8%EC%84%9C.png)https://github.com/sphy1597/wanted-pre-onboarding-backend/blob/master/image/api%EB%AA%85%EC%84%B8%EC%84%9C.png](https://github.com/sphy1597/wanted-pre-onboarding-backend/blob/master/image/api_image.png)https://github.com/sphy1597/wanted-pre-onboarding-backend/blob/master/image/api_image.png" width="400" height="400" /><br />
+<img src="[(https://github.com/sphy1597/wanted-pre-onboarding-backend/blob/master/image/api_image.png)https://github.com/sphy1597/wanted-pre-onboarding-backend/blob/master/image/api_image.png"](https://github.com/sphy1597/wanted-pre-onboarding-backend/blob/master/image/api_image.png)https://github.com/sphy1597/wanted-pre-onboarding-backend/blob/master/image/api_image.png width="400" height="400" /><br />
 
