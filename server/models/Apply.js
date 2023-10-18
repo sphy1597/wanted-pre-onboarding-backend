@@ -1,21 +1,13 @@
 const { DataTypes, Sequelize, INTEGER } = require('sequelize');
 
 // DB data 
-const User = (sequelize) => {
-  return sequelize.define('user', {
-    id: {
+const Apply = (sequelize) => {
+  return sequelize.define('apply', {
+    apply_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-    },
-    user_name: {
-      type: Sequelize.STRING(100),
-      allowNull: false,
-    },
-    apply_id: {
-      type: Sequelize.STRING(100),
-      allowNull: false,
     },
     
     done: {
@@ -26,4 +18,4 @@ const User = (sequelize) => {
   });
 };
 
-module.exports = User;
+module.exports = Apply;

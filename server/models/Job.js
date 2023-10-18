@@ -3,7 +3,7 @@ const { DataTypes, Sequelize, INTEGER } = require('sequelize');
 // DB data 
 const Job = (sequelize) => {
   return sequelize.define('job', {
-    id: {
+    Job_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
