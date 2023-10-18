@@ -34,8 +34,6 @@ npm run start:prod
 </br>
 
 ## 2. 주요 기능 
-</br>
-
 ### 1. 사용자 등록
 [post] http://localhost:8000/user 
 ```bash
