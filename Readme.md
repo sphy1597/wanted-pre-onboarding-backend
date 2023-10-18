@@ -186,7 +186,7 @@ Response
         ]
     }
 ```
-
+</br>
 
 ### 7. 채용공고 검색
 [get]http://localhost:8000/search/한국
@@ -222,6 +222,7 @@ Reponse
         ]
     }
 ```
+</br>
 
 ### 8. 채용공고 상세 정보 
 [get]http://localhost:8000/job/1
@@ -258,6 +259,7 @@ Response
         }
     }
 ```
+</br>
 
 ### 9. 공고 지원
 [post]http://localhost:8000/apply
