@@ -3,7 +3,7 @@
 ### 🎬 실행 방법
 ```bash
 node index.js
-npm run start:prod
+npm start
 ```
 
 
@@ -22,7 +22,7 @@ npm run start:prod
     <a href='#4-커밋-컨벤션-'>4. 기획 단계📋</a>
   </li>
   <li>
-    <a href='#5-기능-소개-'>5. 기능 소개✨</a>
+    <a href='#5-API-명세-'>5. 기능 소개✨</a>
   </li>
 </ul>
 <br/>
